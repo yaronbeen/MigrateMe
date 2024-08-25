@@ -1,0 +1,54 @@
+Image Downloader App
+Overview
+The Image Downloader App is a simple tool that allows users to specify a URL and automatically download all images from that webpage. This app is perfect for users who want to save all images from a particular website quickly and efficiently.
+
+Features
+URL Input: Users can input any valid URL from which they want to download images.
+Automatic Image Detection: The app automatically detects all image formats (JPEG, PNG, GIF, etc.) on the specified URL.
+Batch Download: All detected images are downloaded in a single batch to a specified directory on the user's device.
+Progress Indicator: A visual indicator shows the download progress for each image.
+Installation
+To install and run the Image Downloader App, follow these steps:
+
+Clone the Repository:
+
+bash
+Copy code
+git clone https://github.com/yourusername/image-downloader-app.git
+Navigate to the App Directory:
+
+bash
+Copy code
+cd image-downloader-app
+Install Dependencies:
+
+Ensure you have Python 3.x installed. Then, install the required dependencies:
+
+bash
+Copy code
+pip install -r requirements.txt
+Run the Application:
+
+bash
+Copy code
+python app.py
+Usage
+Launch the App:
+
+After running the application, a user interface will appear.
+
+Enter the URL:
+
+In the input field, specify the URL from which you want to download images.
+
+Select Download Location:
+
+Choose the folder where you want to save the downloaded images.
+
+Start Downloading:
+
+Click the "Download Images" button to start the downloading process. The app will display a progress bar indicating the download status.
+
+View Downloaded Images:
+
+Once the download is complete, navigate to the chosen folder to view the images.
