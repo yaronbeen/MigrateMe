@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Image Crawler</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Website Image Crawler</h1>
+        <form id="crawlerForm">
+            <label for="url">Enter URL to crawl:</label>
+            <input type="url" id="url" required>
+            <label for="replacePatterns">
+                <input type="checkbox" id="replacePatterns">
+                Find and replace specific naming patterns
+            </label>
+            <label for="compressImages">
+                <input type="checkbox" id="compressImages">
+                Compress all images
+            </label>
+            <button type="submit">Start Crawling</button>
+        </form>
+        <div id="progress" class="hidden">
+            <h2>Progress</h2>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+            <p>Status: <span id="status">Initializing...</span></p>
+        </div>
+        <div id="result" class="hidden">
+            <h2>Result</h2>
+            <p id="resultMessage"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
